@@ -3,11 +3,6 @@
 # Linux / Mac Harden By Taylor Christian Newsome 
 echo "https://www.linkedin.com/in/clumsy/"
 
-
-# Patch that BIOS
-echo "Flashing coreboot..."
-sudo flashrom -w /path/to/coreboot.rom
-
 # Enable FileVault (Full Disk Encryption)
 sudo fdesetup enable
 
